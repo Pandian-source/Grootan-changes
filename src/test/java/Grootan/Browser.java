@@ -2,6 +2,7 @@ package Grootan;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.ss.usermodel.CreationHelper;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -43,6 +44,7 @@ public class Browser {
 				Dimension fDmn = new Dimension(Integer.valueOf(fSize.split("\\*")[0]), Integer.valueOf(fSize.split("\\*")[1]));
 				driver.manage().window().setSize(fDmn);
 				driver.get((sheet.getRow(1).getCell(1).getStringCellValue()));
+				driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 				System.out.println("Chrome browser started");
 			}
 			catch (Exception e)
@@ -60,6 +62,7 @@ public class Browser {
 				Dimension fDmn = new Dimension(Integer.valueOf(fSize.split("\\*")[0]), Integer.valueOf(fSize.split("\\*")[1]));
 				driver.manage().window().setSize(fDmn);
 				driver.get((sheet.getRow(1).getCell(1).getStringCellValue()));
+				driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 				System.out.println("IE browser started");
 			}
 			catch (Exception e)
@@ -78,6 +81,7 @@ public class Browser {
 				Dimension fDmn = new Dimension(Integer.valueOf(fSize.split("\\*")[0]), Integer.valueOf(fSize.split("\\*")[1]));
 				driver.manage().window().setSize(fDmn);
 				driver.get((sheet.getRow(1).getCell(1).getStringCellValue()));
+				driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 				System.out.println("Firefox browser started");
 			}
 			catch (Exception e)

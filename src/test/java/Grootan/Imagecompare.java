@@ -78,13 +78,13 @@ public class Imagecompare extends Browser {
 		   if(diff.hasDiff()==true)
 		     {
 			   rowValue.createCell(0).setCellValue("Images are not same");
-			   rowValue.createCell(1).setCellValue("FAIL");
+			   rowValue.createCell(1).setCellValue("Fail");
 			   rowValue.createCell(2).setCellValue(CTO);
 			 }
 		   else
 		   {
 			   rowValue.createCell(0).setCellValue("Images are same");
-			   rowValue.createCell(1).setCellValue("PASS");
+			   rowValue.createCell(1).setCellValue("Pass");
 			   rowValue.createCell(2).setCellValue(CTO);
 		   }}}
 		   FileOutputStream outputStream = new FileOutputStream (file);

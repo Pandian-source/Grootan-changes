@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27414" started-at="2021-04-18T15:28:55 IST" finished-at="2021-04-18T15:29:22 IST">
+  <suite name="Suite" duration-ms="11388" started-at="2021-04-18T15:51:53 IST" finished-at="2021-04-18T15:52:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27414" started-at="2021-04-18T15:28:55 IST" finished-at="2021-04-18T15:29:22 IST">
+    <test name="Test" duration-ms="11388" started-at="2021-04-18T15:51:53 IST" finished-at="2021-04-18T15:52:04 IST">
       <class name="Grootan.Imagecompare">
-        <test-method status="PASS" signature="comparison()[pri:0, instance:Grootan.Imagecompare@3043fe0e]" name="comparison" duration-ms="1827" started-at="2021-04-18T15:29:20 IST" finished-at="2021-04-18T15:29:22 IST">
+        <test-method status="PASS" signature="comparison()[pri:0, instance:Grootan.Imagecompare@1b68ddbd]" name="comparison" duration-ms="876" started-at="2021-04-18T15:51:54 IST" finished-at="2021-04-18T15:51:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- comparison -->
       </class> <!-- Grootan.Imagecompare -->
       <class name="Grootan.Junierengineer">
-        <test-method status="PASS" signature="browser()[pri:0, instance:Grootan.Junierengineer@17d677df]" name="browser" is-config="true" duration-ms="5216" started-at="2021-04-18T15:28:50 IST" finished-at="2021-04-18T15:28:55 IST">
+        <test-method status="PASS" signature="browser()[pri:0, instance:Grootan.Junierengineer@2d8f65a4]" name="browser" is-config="true" duration-ms="3176" started-at="2021-04-18T15:51:50 IST" finished-at="2021-04-18T15:51:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Engineer()[pri:0, instance:Grootan.Junierengineer@17d677df]" name="Engineer" duration-ms="5006" started-at="2021-04-18T15:28:55 IST" finished-at="2021-04-18T15:29:00 IST">
+        <test-method status="PASS" signature="Engineer()[pri:0, instance:Grootan.Junierengineer@2d8f65a4]" name="Engineer" duration-ms="886" started-at="2021-04-18T15:51:53 IST" finished-at="2021-04-18T15:51:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Engineer -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Grootan.Junierengineer@17d677df]" name="closebrowser" is-config="true" duration-ms="350" started-at="2021-04-18T15:29:22 IST" finished-at="2021-04-18T15:29:23 IST">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Grootan.Junierengineer@2d8f65a4]" name="closebrowser" is-config="true" duration-ms="73" started-at="2021-04-18T15:52:04 IST" finished-at="2021-04-18T15:52:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Grootan.Junierengineer -->
       <class name="Grootan.Grootancode">
-        <test-method status="PASS" signature="headers()[pri:0, instance:Grootan.Grootancode@78e67e0a]" name="headers" duration-ms="20542" started-at="2021-04-18T15:29:00 IST" finished-at="2021-04-18T15:29:20 IST">
+        <test-method status="PASS" signature="headers()[pri:0, instance:Grootan.Grootancode@646d64ab]" name="headers" duration-ms="9594" started-at="2021-04-18T15:51:54 IST" finished-at="2021-04-18T15:52:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headers -->
       </class> <!-- Grootan.Grootancode -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
