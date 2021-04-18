@@ -86,7 +86,7 @@ public class Grootancode extends Browser {
 					XSSFCell HOM1 = sheet.createRow(8).createCell(0);
 					HOM1.setCellValue("Images are not same");
 					XSSFCell HOM2 = sheet.getRow(8).createCell(1);
-					HOM2.setCellValue("FAIL");
+					HOM2.setCellValue("Fail");
 					XSSFCell HOM3 = sheet.getRow(8).createCell(2);
 					HOM3.setCellValue(Homepathtwo);
 				}
@@ -95,7 +95,7 @@ public class Grootancode extends Browser {
 					XSSFCell HOM1 = sheet.createRow(8).createCell(0);
 					HOM1.setCellValue("Images are same");
 					XSSFCell HOM2 = sheet.getRow(8).createCell(1);
-					HOM2.setCellValue("PASS");
+					HOM2.setCellValue("Pass");
 					XSSFCell HOM3 = sheet.getRow(8).createCell(2);
 					HOM3.setCellValue(Homepathtwo);
 				}
@@ -140,7 +140,7 @@ public class Grootancode extends Browser {
 					XSSFCell SER = sheet.createRow(9).createCell(0);
 					SER.setCellValue("Images are not same");
 					XSSFCell SER2 = sheet.getRow(9).createCell(1);
-					SER2.setCellValue("FAIL");
+					SER2.setCellValue("Fail");
 					XSSFCell SER3 = sheet.getRow(9).createCell(2);
 					SER3.setCellValue(Servicepath);
 				}
@@ -149,7 +149,7 @@ public class Grootancode extends Browser {
 					XSSFCell SER = sheet.createRow(9).createCell(0);
 					SER.setCellValue("Images are same");
 					XSSFCell SER2 = sheet.getRow(9).createCell(1);
-					SER2.setCellValue("PASS");
+					SER2.setCellValue("Pass");
 					XSSFCell SER3 = sheet.getRow(9).createCell(2);
 					SER3.setCellValue(Servicepath);
 				}
@@ -194,7 +194,7 @@ public class Grootancode extends Browser {
 					XSSFCell OPN = sheet.createRow(10).createCell(0);
 					OPN.setCellValue("Images are not same");
 					XSSFCell OPN2 = sheet.getRow(10).createCell(1);
-					OPN2.setCellValue("FAIL");
+					OPN2.setCellValue("Fail");
 					XSSFCell OPN3 = sheet.getRow(10).createCell(2);
 					OPN3.setCellValue(openpath);
 				}
@@ -203,7 +203,7 @@ public class Grootancode extends Browser {
 					XSSFCell OPN = sheet.createRow(10).createCell(0);
 					OPN.setCellValue("Images are same");
 					XSSFCell OPN2 = sheet.getRow(10).createCell(1);
-					OPN2.setCellValue("PASS");
+					OPN2.setCellValue("Pass");
 					XSSFCell OPN3 = sheet.getRow(10).createCell(2);
 					OPN3.setCellValue(openpath);
 				}
@@ -260,7 +260,7 @@ public class Grootancode extends Browser {
 					XSSFCell BLG = sheet.createRow(11).createCell(0);
 					BLG.setCellValue("Images are not same");
 					XSSFCell BLG2 = sheet.getRow(11).createCell(1);
-					BLG2.setCellValue("FAIL");
+					BLG2.setCellValue("Fail");
 					XSSFCell BLG3 = sheet.getRow(11).createCell(2);
 					BLG3.setCellValue(Blogpath);
 				}
@@ -269,7 +269,7 @@ public class Grootancode extends Browser {
 					XSSFCell BLG = sheet.createRow(11).createCell(0);
 					BLG.setCellValue("Images are same");
 					XSSFCell BLG2 = sheet.getRow(11).createCell(1);
-					BLG2.setCellValue("PASS");
+					BLG2.setCellValue("Pass");
 					XSSFCell BLG3 = sheet.getRow(11).createCell(2);
 					BLG3.setCellValue(Blogpath);
 				}
@@ -317,7 +317,7 @@ public class Grootancode extends Browser {
 					XSSFCell TEAM1 = sheet.createRow(12).createCell(0);
 					TEAM1.setCellValue("Images are not same");
 					XSSFCell TEAM2 = sheet.getRow(12).createCell(1);
-					TEAM2.setCellValue("FAIL");
+					TEAM2.setCellValue("Fail");
 					XSSFCell TEAM3 = sheet.getRow(12).createCell(2);
 					TEAM3.setCellValue(Teampath);
 				}
@@ -326,7 +326,7 @@ public class Grootancode extends Browser {
 					XSSFCell TEAM1 = sheet.createRow(12).createCell(0);
 					TEAM1.setCellValue("Images are same");
 					XSSFCell TEAM2 = sheet.getRow(12).createCell(1);
-					TEAM2.setCellValue("PASS");
+					TEAM2.setCellValue("Pass");
 					XSSFCell TEAM3 = sheet.getRow(12).createCell(2);
 					TEAM3.setCellValue(Teampath);
 				}
@@ -371,7 +371,7 @@ public class Grootancode extends Browser {
 					XSSFCell CAR = sheet.createRow(13).createCell(0);
 					CAR.setCellValue("Images are not same");
 					XSSFCell CAR2 = sheet.getRow(13).createCell(1);
-					CAR2.setCellValue("FAIL");
+					CAR2.setCellValue("Fail");
 					XSSFCell CAR3 = sheet.getRow(13).createCell(2);
 					CAR3.setCellValue(careerspath);
 				}
@@ -380,7 +380,7 @@ public class Grootancode extends Browser {
 					XSSFCell CAR = sheet.createRow(13).createCell(0);
 					CAR.setCellValue("Images are same");
 					XSSFCell CAR2 = sheet.getRow(13).createCell(1);
-					CAR2.setCellValue("PASS");
+					CAR2.setCellValue("Pass");
 					XSSFCell CAR3 = sheet.getRow(13).createCell(2);
 					CAR3.setCellValue(careerspath);
 				}
@@ -426,7 +426,7 @@ public class Grootancode extends Browser {
 					XSSFCell CON = sheet.createRow(14).createCell(0);
 					CON.setCellValue("Images are not same");
 					XSSFCell CON2 = sheet.getRow(14).createCell(1);
-					CON2.setCellValue("FAIL");
+					CON2.setCellValue("Fail");
 					XSSFCell CON3 = sheet.getRow(14).createCell(2);
 					CON3.setCellValue(Contactuspath);
 				}
@@ -435,7 +435,7 @@ public class Grootancode extends Browser {
 					XSSFCell CON = sheet.createRow(14).createCell(0);
 					CON.setCellValue("Images are same");
 					XSSFCell CON2 = sheet.getRow(14).createCell(1);
-					CON2.setCellValue("PASS");
+					CON2.setCellValue("Pass");
 					XSSFCell CON3 = sheet.getRow(14).createCell(2);
 					CON3.setCellValue(Contactuspath);
 				}
