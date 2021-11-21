@@ -93,7 +93,7 @@ public class Browser {
 	public void closebrowser()
 	{
 		driver.close();
-
+		System.out.println("Browser has closed");
 	}
 
 }
